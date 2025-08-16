@@ -75,6 +75,12 @@ main section {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width: 980px) {
+    main section {
+        width: 85%;
+    }
+}
+
 main section h2 {
     font: bold 2.5em sans-serif;
     margin-bottom: 30px;
